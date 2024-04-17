@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_13">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <Button
+                android:id="@+id/buttonTennis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="168dp"
+                android:layout_marginEnd="176dp"
+                android:text="TENNIS" />
+
+            <ImageView
+                android:id="@+id/imageViewTennis"
+                android:layout_width="146dp"
+                android:layout_height="69dp"
+                android:layout_below="@id/buttonTennis"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="-141dp"
+                android:layout_marginEnd="143dp"
+                android:src="@drawable/img_10" />
+
+            <Button
+                android:id="@+id/buttonBalones"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageViewTennis"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="256dp"
+                android:layout_marginEnd="151dp"
+                android:text="BALONES" />
+
+            <ImageView
+                android:id="@+id/imageViewBalones"
+                android:layout_width="161dp"
+                android:layout_height="74dp"
+                android:layout_below="@id/buttonBalones"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="-171dp"
+                android:layout_marginEnd="143dp"
+                android:src="@drawable/img_11" />
+
+            <Button
+                android:id="@+id/buttonJerseys"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageViewBalones"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="292dp"
+                android:layout_marginEnd="159dp"
+                android:text="JERSEYS" />
+
+
+
+            <ImageView
+                android:id="@+id/imageViewJerseys"
+                android:layout_width="126dp"
+                android:layout_height="74dp"
+                android:layout_below="@id/buttonJerseys"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="-172dp"
+                android:layout_marginEnd="152dp"
+                android:src="@drawable/img_12" />
+
+            <Button
+                android:id="@+id/buttonOtraActividad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="VER TOTAL"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"/>
+
+            <Button
+                android:id="@+id/btntotal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="VER TOTAL DE COMPRA"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"/>
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>
+

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_26">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/txtPrecioTotalTodosLosProductos2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:text="Precio Total de Todos los Productos: $0.0"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtPrecioTotalBalon1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtPrecioTotalTodosLosProductos2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:text="Precio total balón 1: $0.00"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtPrecioTotalBalon2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtPrecioTotalBalon1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:text="Precio total guardado Producto 2: $0.0"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtPrecioTotalBalon3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtPrecioTotalBalon2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:text="Precio total guardado Producto 3: $0.0"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btntotal3cosasbalones"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtPrecioTotalBalon3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:text="TOTAL BALONES" />
+
+        <Button
+            android:id="@+id/btnRegresar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btntotal3cosasbalones"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:text="Regresar" />
+
+        <Button
+            android:id="@+id/btntotal3cosas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btnRegresar"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:text="VER TOTAL" />
+
+    </RelativeLayout>
+</ScrollView>

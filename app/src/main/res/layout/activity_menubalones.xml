@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_14"
+    tools:context=".activity_menubalones">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+            <LinearLayout
+                android:layout_width="396dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="-3dp"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:id="@+id/imageViewBalon1"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/img_3" />
+
+
+                <Button
+                    android:id="@+id/btnAgregarCompraBalon1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="agregarCompra"
+                    android:tag="20"
+                    android:text="Agregar Compra $20" />
+
+
+                <Button
+                    android:id="@+id/btnVerDescripcionBalon1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="verDescripcion"
+                    android:tag="Descripcion Balón 1"
+                    android:text="Ver Descripción" />
+
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp" />
+
+
+                <ImageView
+                    android:id="@+id/imageViewBalon2"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/img_4" />
+
+
+                <Button
+                    android:id="@+id/btnAgregarCompraBalon2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="agregarCompra"
+                    android:tag="25"
+                    android:text="Agregar Compra $25" />
+
+
+                <Button
+                    android:id="@+id/btnVerDescripcionBalon2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="verDescripcion"
+                    android:tag="Descripcion Balón 2"
+                    android:text="Ver Descripción" />
+
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp" />
+
+
+                <ImageView
+                    android:id="@+id/imageViewBalon3"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/img_5" />
+
+
+                <Button
+                    android:id="@+id/btnAgregarCompraBalon3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="agregarCompra"
+                    android:tag="30"
+                    android:text="Agregar Compra $30" />
+
+                <Button
+                    android:id="@+id/btnVerDescripcionBalon3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="verDescripcion"
+                    android:tag="Descripcion Balón 3"
+                    android:text="Ver Descripción" />
+
+                <Button
+                    android:id="@+id/btnAgregarCompra"
+                    android:layout_width="239dp"
+                    android:layout_height="32dp"
+                    android:layout_marginBottom="1dp"
+                    android:text="Agregar Compra" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txtPrecioTotal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_margin="16dp"
+                android:text="Precio total: $0"
+                android:textSize="18sp"/>
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>
